@@ -1,0 +1,23 @@
+
+    <div>
+    <h2>Encuesta</h2>
+  
+    <!-- Pregunta 1 -->
+    <label for="respuesta1">Pregunta 1:</label>
+    <input type="text" id="respuesta1" [(ngModel)]="respuesta1" />
+  
+    <!-- Pregunta 2 -->
+    <label for="respuesta2">Pregunta 2:</label>
+    <input type="number" id="respuesta2" [(ngModel)]="respuesta2" />
+  
+    <!-- Pregunta 3 -->
+    <label>
+      Pregunta 3:
+      <input type="checkbox" [(ngModel)]="respuesta3" />
+    </label>
+  
+    <!-- Botón para enviar la encuesta -->
+    <button (click)="enviarEncuesta()">Enviar Encuesta</button>
+ <router-outlet></router-outlet>
+  </div>
+ 

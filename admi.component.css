@@ -1,0 +1,47 @@
+/*# sourceMappingURL=admi.component.css.map */
+/* Estilo para el contenedor  */
+div {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Estilo para el título de la encuesta */
+  h1 {
+    color: #3498db; /* Azul brillante */
+  }
+  
+  /* Estilo para las preguntas */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilo para las opciones de respuesta en las preguntas de opción múltiple */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Estilo para el campo de respuesta abierta */
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  /* Estilo para el botón de envío */
+  button {
+    background-color: #2ecc71; /* Verde esmeralda */
+    color: #ffffff; /* Texto blanco */
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Cambiar estilo al pasar el mouse sobre el botón */
+  button:hover {
+    background-color: #27ae60; /* Verde más oscuro al pasar el mouse */
+  }
+  
